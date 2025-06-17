@@ -7,6 +7,6 @@ public class GridPosition : MonoBehaviour
 
     void OnMouseDown()
     {
-        Debug.Log($"Clicked! {x} - {y}");
+        GameManager.Instance.ClickedOnGridPosition(x, y);
     }
 }
